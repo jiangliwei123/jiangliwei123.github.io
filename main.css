@@ -1,6 +1,11 @@
 .img1{
-    width: 40px;
+    width: 100%;
 }
 title{
     justify-content: center;
+}
+h1{
+    justify-self: center;
+    font: bold;
+    font-size: 50px;
 }
