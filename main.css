@@ -1,5 +1,5 @@
 .img1{
-    width: 100%;
+    width: 200px;
 }
 title{
     justify-content: center;
@@ -7,5 +7,5 @@ title{
 h1{
     justify-self: center;
     font: bold;
-    font-size: 50px;
+    font-size: 10px;
 }
