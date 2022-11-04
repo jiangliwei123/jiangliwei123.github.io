@@ -1,11 +1,31 @@
-.img1{
-    width: 200px;
+.muyu{
+    margin: 100px;
 }
-title{
-    justify-content: center;
-}
+
 h1{
-    justify-self: center;
+    text-align: center;
     font: bold;
-    font-size: 10px;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "阿里妈妈数黑体 Bold";
+    
+}
+p{
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "阿里妈妈数黑体 Bold";
+}
+
+@font-face {
+    font-family: "阿里妈妈数黑体 Bold";font-weight: 700;src: url("//at.alicdn.com/wf/webfont/5dsdzScJ6p1T/pUisql-E8HuRiI-ycnbXz.woff2") format("woff2"),
+    url("//at.alicdn.com/wf/webfont/5dsdzScJ6p1T/L2iUWXB0DvR2uTdAuZLSY.woff") format("woff");
+    font-display: swap;
+}
+
+div{
+    text-align: center;
+}
+
+button{
+    visibility: hidden;
 }
