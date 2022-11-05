@@ -9,11 +9,10 @@
     <audio id="audio" src="http://www.lskgugu.top:8083/asset/audio/muyu2.mp3" ></audio>
     <script src='main.js'></script>
 </head>
-<body bgcolor="black">
+<body bgcolor="black" onkeydown ="clickmuyu()">
     <div>
         <h1>Wooden Fish</h1>
         <!-- <img class="img1" src="https://img-blog.csdnimg.cn/4115ac1f1d9440c283b52545d29a1d73.jpeg" alt="school"> -->
-        <button>click</button>
     </div>
     <div>
         <div class="muyuframe">
@@ -25,8 +24,8 @@
         </p>
     </div>
     <div>
-        <p id="ip" class="appendix">0</p>
-        <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>   
+        <p id="ip" class="appendix"></p>
+        <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script> 
         <script type="text/javascript">   
             document.getElementById("ip").textContent='you are from: '+returnCitySN["cname"];   
         </script>
@@ -35,9 +34,9 @@
             date = document.getElementById("date");
             setInterval(() => {
                 date.textContent = "current time: "+Date().slice(0,25);
-            }, 1000);
-            
+            }, 1000);    
         </script>
+        
     </div>
     <script src="BanZoom.js"></script>
 </body>
